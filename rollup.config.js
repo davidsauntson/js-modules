@@ -1,8 +1,16 @@
-import babel from 'rollup-plugin-babel';
+
+// export default {
+//   entry: 'src/shows/davids-show.js',
+//   dest: 'js/davids-show.js',
+//   format: 'iife',
+//   moduleName: 'Show'
+
+// };
 
 export default {
-  entry: 'src/main.js',
-  dest: 'bundle-2.js', // equivalent to --output
-  plugins: [ babel() ],
-  format: 'es'
+  entry: 'src/shows/rajs-show.js',
+  dest: 'js/rajs-show.js',
+  format: 'iife',
+  moduleName: 'Show'
+
 };
